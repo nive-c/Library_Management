@@ -58,7 +58,7 @@ def main():
     conn= mysql.connector.connect(
         host="localhost",
         user="root",
-        password="root",
+        password="your_password",
         database="library"  # type: ignore
     )
     cursor= conn.cursor()
@@ -93,4 +93,5 @@ def main():
         
 
 if __name__ == "__main__":
+
     main()
